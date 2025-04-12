@@ -94,3 +94,60 @@
 //     return array.reduce((x,y) => x + y,0) / array.length;
 //   }
 
+// //7kyu vowels to length
+// export class Kata {
+//         static getCount(str:string): number{
+//           let lists = str.match(/[aeiou]/gi)
+//           return lists ? lists.length : 0
+//         }
+//     }
+//     console.log(Kata.getCount("HelooooAO world"))
+
+//7 kyu remove vowels then return a new string
+// export class Kata {
+//     static disemvowel(str: string): string {
+//         return str.replaceAll(/[aeiou]/gi,'')
+       
+//     }
+// }
+// console.log(Kata.disemvowel("HALO"))  
+
+// // 7kyu square every digit
+// export class Kata {
+//     static squareDigits(num: number):number {
+//         return +num.toString()
+//                    .split('')
+//                    .map((n) => Math.pow(+n,2))
+//                    .join('')
+//     }
+//   }
+// console.log(Kata.squareDigits(9119))
+
+//7kyu highest and lowers
+// export class Kata {
+//     static highAndLow(numbers: string): string {
+//         let result = numbers.split(" ")
+//                             .map((n) => +n)
+//         return `${Math.max(...result)}, ${Math.min(...result)}`
+//     }
+//   }
+// console.log(Kata.highAndLow("5,3,6,7,12,0,-1"))
+
+//7kyuu descending order
+// export function descendingOrder(n: number): number {
+//   let descend =  n.toString()
+//                   .split('')
+//                   .sort((a,b) => +a - +b).reverse()
+//   return +descend
+// }
+// console.log(descendingOrder(5))
+
+//7 kyu filter out numbers and integers
+// export function filter_list(l:Array<any>):Array<number> {
+//   let result = l.filter((item) => typeof item === "number" && Number.isInteger(item))
+//   return result
+// }
+// console.log(filter_list(['2']))
+
+
+//7kyu

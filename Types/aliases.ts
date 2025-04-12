@@ -33,6 +33,33 @@ type User = {
     city: "New York",
   };
 
+  //Intersection types exercise
+
+//exercise 1
+
+
+type Product = {
+  id:string
+  name:string
+  price:number
+}
+
+type InventoryDetails = {
+  quantity:number
+  location:string
+}
+
+type ProductionInventory = Product & InventoryDetails
+
+const ProductInventory = {
+  id:"1",
+  name:"vince",
+  price:12000,
+  quantity:3,
+  location:"Mabalacat"
+}
+
+console.log(ProductInventory)
 
   
   
