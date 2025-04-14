@@ -150,4 +150,26 @@
 // console.log(filter_list(['2']))
 
 
-//7kyu
+//7kyu get the middle character of string
+
+// export function getMiddle(s:string) {
+//     const len = s.length
+//     const middle = Math.floor(len / 2)
+//     return len % 2 === 0 ? s.slice(middle - 1, middle +1) : s.charAt(middle)
+//   }
+//   console.log(getMiddle('gagokaba'))
+
+
+//7kyu  You are a square
+// export default function isSquare(n: number): boolean {
+//    if( n < 0) return true
+
+//    return Number.isInteger(Math.sqrt(n))
+// }
+// console.log(isSquare(2))
+
+
+function logMessage(message: string): void {
+    console.log(message);
+  }
+  logMessage("tanginaka")

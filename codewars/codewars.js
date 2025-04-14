@@ -8,3 +8,10 @@ export class Kata {
     }
   }
 console.log(Kata.squareDigits(9119))
+
+
+function getSquare(n){
+  return Number.isInteger(Math.sqrt(n))
+}
+console.log(getSquare(2))
+

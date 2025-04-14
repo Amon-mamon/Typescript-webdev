@@ -1,0 +1,7 @@
+Let TS infer when possible: For simple primitives, omit the generic.
+
+Explicit for complex/nullable: Use useState<Type | null>(null) or useState<Type[]>([]).
+
+Keep types close: Define your types/interfaces near the component or in a shared types.ts file.
+
+Event types: Use React’s built-in event types (React.ChangeEvent<HTMLInputElement>, React.MouseEvent<HTMLButtonElement>, etc.).

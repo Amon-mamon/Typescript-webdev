@@ -98,3 +98,4 @@ export function longestString(arr:Array<any>):string {
     return getString
 }
 console.log(longestString([2,"bince","bossmarts"]))
+
